@@ -14,8 +14,8 @@ const feed = new Feed({
   id: siteUrl,
   link: siteUrl,
   language: 'en',
-  image: `${siteUrl}/favicon-32x32.png`,
-  favicon: `${siteUrl}/favicon.ico`,
+  image: `${siteUrl}/favicon.png`,
+  favicon: `${siteUrl}/favicon.png`,
   copyright: `&copy; 2021 Project Edge `,
   feedLinks: {
     rss: `${siteUrl}/feed.xml`,
