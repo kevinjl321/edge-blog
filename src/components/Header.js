@@ -9,7 +9,7 @@ export default function Header() {
             aria-label="Project Edge Blog"
             className="text-4xl font-bold text-gray-700 hover:text-green-500"
           >
-            project edge blog ⚛️
+           ⚛️ project edge blog
           </a>
         </Link>
       </div>
