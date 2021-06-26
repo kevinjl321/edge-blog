@@ -26,11 +26,6 @@ export const srini = {
   twitter: '',
   avatar: sriniAvatar,
 }
-export const kevinlan = {
-  name: 'Kevin Lan',
-  twitter: 'kevinjl321',
-  avatar: kevinlanAvatar,
-}
 export const randycai = {
   name: 'Randy Cai',
   twitter: '',
