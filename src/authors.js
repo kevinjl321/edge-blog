@@ -2,7 +2,7 @@ import kevinlanAvatar from './img/kevinlan.jpg'
 import dowsonyangAvatar from './img/dowsonyang.jpg'
 import lawrencechaoAvatar from './img/lawrencechao.jpg'
 import markmacAvatar from './img/markmac.jpg'
-import randycaiAvatar from './img/randycai.jpg'
+import randycaiAvatar from './img/randy.jpg'
 import coreysyAvatar from './img/coreysy.jpg'
 import sriniAvatar from './img/srini.jpg'
 
