@@ -6,6 +6,7 @@ import randycaiAvatar from './img/randy.jpg'
 import coreysyAvatar from './img/coreysy.jpg'
 import sriniAvatar from './img/srini.jpg'
 import philipAvatar from './img/philip.jpg'
+import dennisAvatar from './img/dennisrui.png'
 
 export const kevinlan = {
   name: 'Kevin Lan',
@@ -46,5 +47,10 @@ export const philipleung = {
   name: 'Philip Leung',
   twitter: '',
   avatar: philipAvatar,
+}
+export const dennisrui = {
+  name: 'Dennis Rui',
+  twitter: '',
+  avatar: dennisAvatar,
 }
 
