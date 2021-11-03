@@ -2,7 +2,6 @@ import tinytime from 'tinytime'
 import Link from 'next/link'
 import Head from 'next/head'
 import getAllPostPreviews from '@/getAllPostPreviews'
-import twitterCard from '@/img/twitter-card.jpg'
 import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
 
@@ -20,17 +19,10 @@ export default function Home() {
         <main>
           <div className="divide-y divide-gray-200">
             <Head>
-              <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@tailwindcss" />
-              <meta name="twitter:creator" content="@tailwindcss" />
-              <meta name="twitter:title" content="Blog – Project Edge" />
-              <meta name="twitter:description" content="All the updates and news from Project Edge!" />
-              <meta name="twitter:image" content={`https://blog.project-edge.kevinjl321.vercel.app${twitterCard}`} />
-              <meta property="og:url" content="https://blog.project-edge.kevinjl321.vercel.app" />
+              <meta property="og:url" content="https://blog.project-edge.org" />
               <meta property="og:type" content="article" />
               <meta property="og:title" content="Blog – Project Edge" />
               <meta property="og:description" content="All the updates and news from Project Edge!" />
-              <meta property="og:image" content={`https://blog.project-edge.kevinjl321.vercel.app${twitterCard}`} />
               <link rel="icon" href="./favicon.png" />
               <title>Project Edge Blog</title>
               <meta name="description" content="All the updates and news from Project Edge!" />

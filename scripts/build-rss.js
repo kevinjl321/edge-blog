@@ -6,7 +6,7 @@ import { Feed } from 'feed'
 import { mdxComponents } from '../src/components/Post'
 import { getAllPosts } from '../src/getAllPostPreviews'
 
-const siteUrl = 'https://blog.project-edge.kevinjl321.vercel.app'
+const siteUrl = 'https://blog.project-edge.org'
 
 const feed = new Feed({
   title: 'Project Edge Blog',
@@ -44,10 +44,6 @@ getAllPosts().forEach(({ link, module: { meta, default: Content } }) => {
     link,
     description: meta.description,
     content: html + postText,
-    author: meta.authors.map(({ name, twitter }) => ({
-      name,
-      link: `https://twitter.com/${twitter}`,
-    })),
     date: new Date(meta.date),
     image: siteUrl + meta.image,
     ...(meta.discussion

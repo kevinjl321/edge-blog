@@ -10,7 +10,7 @@ import dennisAvatar from './img/dennisrui.png'
 
 export const kevinlan = {
   name: 'Kevin Lan',
-  twitter: 'kevinjl321',
+  twitter: '',
   avatar: kevinlanAvatar,
 }
 export const markmac = {

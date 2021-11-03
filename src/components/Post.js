@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import { MDXProvider } from '@mdx-js/react'
 import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
-import smallCard from '@/img/twitter-card-small.jpg'
 
 export const mdxComponents = {
   pre: ({ className, ...props }) => (
@@ -175,14 +174,6 @@ export default function Post({ meta, children, posts }) {
                           <dt className="sr-only">Name</dt>
                           <dd className="text-gray-900">{author.name}</dd>
                           <dt className="sr-only">Twitter</dt>
-                          <dd>
-                            <a
-                              href={`https://twitter.com/${author.twitter}`}
-                              className="text-teal-500 hover:text-teal-600"
-                            >
-                              @{author.twitter}
-                            </a>
-                          </dd>
                         </dl>
                       </li>
                     ))}
